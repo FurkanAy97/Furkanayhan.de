@@ -1,0 +1,27 @@
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px;
+
+  img {
+    height: 70px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    margin-left: 32px; 
+    font-weight: 600;
+    font-size: large;
+
+    &:hover{
+        color: rgba(255, 255, 255, 0.8);
+    }
+  }
+}
